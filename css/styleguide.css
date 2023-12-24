@@ -1,0 +1,96 @@
+:root { 
+  --alice-blue: #f5f5ff;
+  --black: #000000;
+  --blue-crayola: #457af5;
+  --clear-day: #dff1ee;
+  --default--white: #ffffff;
+  --fiery-rose: #E63946;
+  --linen: #fbf3ec;
+  --milk-white: #fcfcfd;
+  --oxford-blue: #0f1b36;
+  --powder-blue: #c0d0f4;
+  --scampi: #655c97;
+ 
+  --font-size-l: 22px;
+  --font-size-m: 18px;
+  --font-size-s: 16px;
+  --font-size-xl: 32px;
+  --font-size-xxl: 52px;
+ 
+  --font-family-inter: "Inter", Helvetica;
+}
+
+#pl-logo {
+    background-color: var(--fiery-rose);
+    height: 65px;
+    width: 70px;
+    font-size: 48px;
+    padding: 4px 6px;
+    border-radius: 4px;
+    color: var(--default--white);
+    text-align: center;
+}
+
+.inter-normal-midnight-18px {
+  color: var(--oxford-blue);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-medium-midnight-18px {
+  color: var(--oxford-blue);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-bold-midnight-32px {
+  color: var(--oxford-blue);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-extra-bold-midnight-52px {
+  color: var(--oxford-blue);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.inter-medium-midnight-22px {
+  color: var(--oxford-blue);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-semi-bold-blueberry-22px {
+  color: var(--blue-crayola);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.inter-bold-midnight-22px {
+  color: var(--oxford-blue);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-medium-blueberry-18px {
+  color: var(--blue-crayola);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}

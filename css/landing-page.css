@@ -1,0 +1,1194 @@
+/* screen - landing-page */
+
+.landing-page {
+  align-items: center;
+  background-color: var(--alice-blue);
+  display: flex;
+  flex-direction: column;
+  height: 6043px;
+  width: 1440px;
+}
+
+.landing-page .header {
+  align-items: flex-end;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 120px;
+  justify-content: flex-end;
+  min-width: 1440px;
+  padding: 24.0px 64px;
+  width: auto;
+}
+
+.landing-page .content-2 {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 1311px;
+}
+
+.landing-page .logo {
+  height: 63.95px;
+  position: relative;
+  width: 160px;
+}
+
+.landing-page .nav-items {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 32px;
+  justify-content: center;
+  position: relative;
+}
+
+.landing-page .place {
+  letter-spacing: 0.36px;
+  line-height: 24px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.landing-page .items {
+  height: 24px;
+  position: relative;
+  width: 311px;
+}
+
+.landing-page .flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 24px;
+  min-width: 307px;
+}
+
+.landing-page .about {
+  letter-spacing: 0.36px;
+  line-height: 24px;
+  min-width: 54px;
+  white-space: nowrap;
+}
+
+.landing-page .sevices {
+  align-items: flex-end;
+  display: inline-flex;
+  gap: 4px;
+  justify-content: center;
+  margin-left: 41px;
+  position: relative;
+}
+
+.landing-page .services {
+  letter-spacing: 0.36px;
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.landing-page .icon-1 {
+  height: 20px;
+  position: relative;
+  width: 20px;
+}
+
+.landing-page .portfolio-1 {
+  letter-spacing: 0.36px;
+  line-height: 24px;
+  margin-left: 34px;
+  white-space: nowrap;
+}
+
+.landing-page .contact-button {
+  align-items: center;
+  background-color: var(--scampi);
+  border-radius: 8px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 12px;
+  justify-content: center;
+  padding: 12px 24px;
+  position: relative;
+}
+
+.landing-page .label-1 {
+  color: var(--milk-white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-weight: 600;
+  line-height: 24px;
+  margin-top: -1.00px;
+  text-align: center;
+}
+
+.landing-page .hero-section {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-end;
+  min-width: 1440px;
+  padding: 0 60px;
+}
+
+.landing-page .overlap-group1 {
+  height: 538px;
+  position: relative;
+  width: 1319px;
+}
+
+.landing-page .content-3 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 32px;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 102px;
+}
+
+.landing-page .text-1 {
+  gap: 24px;
+}
+
+.landing-page .flex-container-113564 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.landing-page .text {
+  align-self: stretch;
+  letter-spacing: 2.08px;
+  line-height: 56px;
+  position: relative;
+}
+
+.landing-page .we-are-artist-for-di {
+  color: var(--oxford-blue);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 40px;
+  opacity: 0.6;
+  position: relative;
+  width: fit-content;
+}
+
+.landing-page .cta {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  position: relative;
+}
+
+.landing-page .tell-us-about-your-project-button {
+  align-items: center;
+  background-color: var(--fiery-rose);
+  border-radius: 4px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  padding: 16px 24px;
+  position: relative;
+}
+
+.landing-page .label {
+  color: var(--milk-white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+  letter-spacing: 0.36px;
+  line-height: 20px;
+  margin-top: -0.50px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.landing-page .right {
+  height: 21px;
+  position: relative;
+  width: 21px;
+}
+
+.landing-page .our-servies-button {
+  align-items: center;
+  border: 2.5px solid;
+  border-color: #457af599;
+  border-radius: 4px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  height: 53px;
+  justify-content: center;
+  padding: 16px 24px;
+  position: relative;
+}
+
+.landing-page .label-2 {
+  line-height: 20px;
+  margin-top: -2.00px;
+  opacity: 0.8;
+}
+
+.landing-page .hero-image {
+  height: 538px;
+  left: 609px;
+  position: absolute;
+  top: 0;
+  width: 710px;
+}
+
+.landing-page .information {
+  align-items: center;
+  display: flex;
+  height: 160px;
+  margin-top: 30px;
+  padding: 0 4px;
+  width: 1320px;
+}
+
+.landing-page .content-4 {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 1312px;
+}
+
+.landing-page .content-item {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 24px;
+  position: relative;
+}
+
+.landing-page .x-icon {
+  height: 64px;
+  position: relative;
+  width: 64px;
+}
+
+.landing-page .we-are-multi-award-w {
+  letter-spacing: 1.80px;
+  line-height: 28px;
+  margin-top: -1.00px;
+  opacity: 0.6;
+  position: relative;
+  width: fit-content;
+}
+
+.landing-page .divider {
+  height: 96px;
+  position: relative;
+  width: 2.5px;
+}
+
+.landing-page .development-icon {
+  height: 56px;
+  position: relative;
+  width: 56px;
+}
+
+.landing-page .usa-based-developmen {
+  height: 84px;
+  letter-spacing: 1.80px;
+  line-height: 28px;
+  margin-top: -1.00px;
+  opacity: 0.6;
+  position: relative;
+  width: 313px;
+}
+
+.landing-page .goal {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 18px;
+  justify-content: center;
+  position: relative;
+}
+
+.landing-page .our-goal-is-to-grow {
+  letter-spacing: 1.80px;
+  line-height: 28px;
+  margin-top: -1.00px;
+  opacity: 0.6;
+  position: relative;
+  width: fit-content;
+}
+
+.landing-page .trusted-clients {
+  align-items: center;
+  background-color: var(--linen);
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 49px;
+  height: 413px;
+  margin-top: 52px;
+  overflow: hidden;
+  padding: 39px 0;
+  width: 1320px;
+  display: none;
+}
+
+.landing-page .trusted-by-our-clients-around-the-world {
+  letter-spacing: 0.88px;
+  line-height: 32px;
+  margin-right: 1.0px;
+  min-width: 447px;
+  white-space: nowrap;
+}
+
+.landing-page .logo-1 {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  position: relative;
+}
+
+.landing-page .frame-1 {
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.landing-page .x-logo {
+  background-color: var(--default--white);
+  border-radius: 16px;
+  height: 101.25px;
+  overflow: hidden;
+  position: relative;
+  width: 180px;
+}
+
+.landing-page .x-logo-1 {
+  height: 34px;
+  left: 36px;
+  position: absolute;
+  top: 34px;
+  width: 109px;
+}
+
+.landing-page .google-logo {
+  height: 34px;
+  left: 40px;
+  position: absolute;
+  top: 34px;
+  width: 101px;
+}
+
+.landing-page .fed-ex-logo {
+  height: 32px;
+  left: 37px;
+  position: absolute;
+  top: 35px;
+  width: 106px;
+}
+
+.landing-page .microsoft-logo {
+  height: 27px;
+  left: 25px;
+  position: absolute;
+  top: 37px;
+  width: 129px;
+}
+
+.landing-page .oyo-logo {
+  height: 34px;
+  left: 46px;
+  position: absolute;
+  top: 34px;
+  width: 89px;
+}
+
+.landing-page .company {
+  height: 86.12px;
+  object-fit: cover;
+  position: relative;
+  width: 180px;
+}
+
+.landing-page .book-my-show-logo {
+  background-color: var(--default--white);
+  border-radius: 16px;
+  box-shadow: 0px 30px 40px #d4d9e833;
+  height: 96px;
+  position: relative;
+  width: 170px;
+}
+
+.landing-page .book-my-show-logo-1 {
+  height: 37px;
+  left: 24px;
+  position: absolute;
+  top: 30px;
+  width: 123px;
+}
+
+.landing-page .ola-logo {
+  height: 36px;
+  left: 38px;
+  position: absolute;
+  top: 33px;
+  width: 104px;
+}
+
+.landing-page .walmart-logo {
+  height: 30px;
+  left: 26px;
+  position: absolute;
+  top: 36px;
+  width: 127px;
+}
+
+.landing-page .our-services {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-right: 9.0px;
+  margin-top: 64px;
+  min-height: 2306px;
+  width: 1305px;
+}
+
+.landing-page .heading-text {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 18px;
+  justify-content: center;
+  margin-left: 14.0px;
+  position: relative;
+}
+
+.landing-page .frame-1-1 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  position: relative;
+}
+
+.landing-page .our {
+  color: var(--blue-crayola);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-weight: 800;
+  letter-spacing: 0.88px;
+  line-height: 32px;
+  margin-top: -1.00px;
+  opacity: 0.9;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.landing-page .title {
+  letter-spacing: 3.20px;
+  line-height: 32px;
+  opacity: 0.9;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.landing-page .dedicated-teams-of-s {
+  color: #00000099;
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 32px;
+  opacity: 0.6;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.landing-page .website-development {
+  align-items: center;
+  display: inline-flex;
+  gap: 38px;
+  justify-content: center;
+  margin-left: 14.0px;
+  margin-top: 13px;
+  position: relative;
+}
+
+.landing-page .text-2 {
+  gap: 16px;
+}
+
+.landing-page .frame {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 18px;
+  position: relative;
+}
+
+.landing-page .website-development-1 {
+  letter-spacing: 0.88px;
+  line-height: 32px;
+  margin-top: -1.00px;
+  opacity: 0.9;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.landing-page .fast-functional-responsive {
+  letter-spacing: 3.20px;
+  line-height: 32px;
+  opacity: 0.9;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.landing-page .web-development-serv {
+  letter-spacing: 0;
+  line-height: 40px;
+  opacity: 0.6;
+  position: relative;
+  width: 615px;
+}
+
+.landing-page .illustration {
+  height: 542.5px;
+  position: relative;
+  width: 620px;
+}
+
+.landing-page .applications-container {
+  height: 1022px;
+  margin-top: 2px;
+  position: relative;
+  width: 1305px;
+}
+
+.landing-page .web-applications {
+  align-items: center;
+  display: inline-flex;
+  gap: 61px;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.landing-page .text-3 {
+  gap: 16px;
+}
+
+.landing-page .web-applications-1 {
+  letter-spacing: 0.88px;
+  line-height: 32px;
+  margin-top: -1.00px;
+  opacity: 0.9;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.landing-page .personalised-versatile-scalable {
+  letter-spacing: 3.20px;
+  line-height: 32px;
+  opacity: 0.9;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.landing-page .we-custom-build-web {
+  letter-spacing: 0;
+  line-height: 40px;
+  opacity: 0.6;
+  position: relative;
+  width: 615px;
+}
+
+.landing-page .mobile-applications {
+  align-items: center;
+  display: inline-flex;
+  gap: 73px;
+  justify-content: center;
+  left: 20px;
+  position: absolute;
+  top: 514px;
+}
+
+.landing-page .text-4 {
+  gap: 16px;
+}
+
+.landing-page .frame-5 {
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 18px;
+  justify-content: center;
+}
+
+.landing-page .mobile-applications-1 {
+  letter-spacing: 0.88px;
+  line-height: 32px;
+  margin-top: -1.00px;
+  opacity: 0.9;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.landing-page .claim-the-territory {
+  letter-spacing: 3.20px;
+  line-height: 32px;
+  opacity: 0.9;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.landing-page .hire-certified-mobil {
+  letter-spacing: 0;
+  line-height: 40px;
+  opacity: 0.6;
+  position: relative;
+  width: 615px;
+}
+
+.landing-page .illustration-4 {
+  height: 507.5px;
+  position: relative;
+  width: 580px;
+}
+
+.landing-page .uiux-design {
+  align-items: center;
+  display: inline-flex;
+  gap: 123px;
+  justify-content: center;
+  margin-left: 9.0px;
+  margin-top: 8px;
+  position: relative;
+}
+
+.landing-page .illustration-5 {
+  height: 550px;
+  position: relative;
+  width: 550px;
+}
+
+.landing-page .frame-7 {
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.landing-page .uiux-design-1 {
+  letter-spacing: 0.88px;
+  line-height: 32px;
+  margin-top: -1.00px;
+  opacity: 0.9;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.landing-page .beautiful-usable-designs {
+  letter-spacing: 3.20px;
+  line-height: 32px;
+  opacity: 0.9;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.landing-page .web-design-services {
+  height: 160px;
+  letter-spacing: 0;
+  line-height: 40px;
+  opacity: 0.6;
+  position: relative;
+  width: 615px;
+}
+
+.landing-page .our-portfolio {
+  align-items: flex-end;
+  display: flex;
+  height: 1824px;
+  margin-top: 16px;
+  padding: 5px 10px;
+  width: 1320px;
+}
+
+.landing-page .content-5 {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 80px;
+  justify-content: center;
+  position: relative;
+}
+
+.landing-page .heading-text-1 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  position: relative;
+}
+
+.landing-page .frame-8 {
+  align-items: center;
+  flex-direction: column;
+  gap: 18px;
+  justify-content: center;
+}
+
+.landing-page .some-of-our-recent-project {
+  letter-spacing: 3.20px;
+  line-height: 32px;
+  opacity: 0.9;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.landing-page .we-design-with-care {
+  letter-spacing: 0;
+  line-height: 32px;
+  opacity: 0.6;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.landing-page .frame-10 {
+  align-items: center;
+  flex-direction: column;
+  gap: 80px;
+  justify-content: center;
+}
+
+.landing-page .portfolio-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+}
+
+.landing-page .portfolio {
+  align-items: flex-start;
+  background-color: var(--clear-day);
+  border-radius: 24px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  padding: 28px 0px 28px 48px;
+  position: relative;
+}
+
+.landing-page .content {
+  align-items: center;
+  border-radius: 24px;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 20px;
+  position: relative;
+  width: 1251px;
+}
+
+.landing-page .content-1 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+}
+
+.landing-page .text-5 {
+  gap: 16px;
+}
+
+.landing-page .signal-ventures {
+  letter-spacing: 2.20px;
+  line-height: 32px;
+  margin-top: -1.00px;
+  opacity: 0.9;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.landing-page .signal-ventures-is-a {
+  letter-spacing: 0;
+  line-height: 36px;
+  opacity: 0.6;
+  position: relative;
+  width: 518px;
+}
+
+.landing-page .view-live-site {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 12px;
+  justify-content: center;
+  position: relative;
+}
+
+.landing-page .view-live-site-1 {
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.landing-page .icon {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.landing-page .website-image {
+  background-image: url(../img/real-state-crm.png);
+  background-size: 100% 100%;
+  border-radius: 16px;
+  height: 380px;
+  position: relative;
+  width: 689px;
+}
+
+.landing-page .text-6 {
+  gap: 16px;
+}
+
+.landing-page .website-image-1 {
+  background-image: url(../img/mobile-application.jpg);
+}
+
+.landing-page .text-7 {
+  gap: 16px;
+}
+
+.landing-page .website-image-2 {
+  background-image: url(../img/ecomm_pannel.png);
+}
+
+.landing-page .view-all-project-button {
+  align-items: center;
+  background-color: var(--scampi);
+  border-radius: 8px;
+  box-shadow: 0px 10px 30px #457af540;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  padding: 16px 32px;
+  position: relative;
+}
+
+.landing-page .footer {
+  align-items: flex-end;
+  background-color: var(--linen);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 432px;
+  justify-content: flex-start;
+  margin-top: 88px;
+  overflow: hidden;
+  padding: 27.5px 73px;
+  width: 1440px;
+}
+
+.landing-page .content-6 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  justify-content: center;
+  position: relative;
+  width: 1294px;
+}
+
+.landing-page .footer-items {
+  align-items: flex-end;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 180px;
+  justify-content: center;
+  position: relative;
+}
+
+.landing-page .information-1 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+}
+
+.landing-page .text-8 {
+  gap: 16px;
+}
+
+.landing-page .our-goal-is-to-grow-1 {
+  color: var(--oxford-blue);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  letter-spacing: 0.44px;
+  line-height: 36px;
+  opacity: 0.6;
+  position: relative;
+  width: fit-content;
+}
+
+.landing-page .social-links {
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.landing-page .items-1 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 64px;
+  justify-content: center;
+  position: relative;
+}
+
+.landing-page .services-1 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+}
+
+.landing-page .services-2 {
+  letter-spacing: 0.88px;
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.landing-page .list-items {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+}
+
+.landing-page .web-development {
+  letter-spacing: 0.72px;
+  line-height: 26px;
+  margin-top: -1.00px;
+  opacity: 0.6;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.landing-page .web-application {
+  letter-spacing: 0.72px;
+  line-height: 26px;
+  opacity: 0.6;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.landing-page .mobile-application {
+  letter-spacing: 0.72px;
+  line-height: 26px;
+  opacity: 0.6;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.landing-page .uiux {
+  letter-spacing: 0.72px;
+  line-height: 26px;
+  opacity: 0.6;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.landing-page .company-1 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+}
+
+.landing-page .comapny {
+  letter-spacing: 0.88px;
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.landing-page .about-us {
+  letter-spacing: 0.72px;
+  line-height: 26px;
+  margin-top: -1.00px;
+  opacity: 0.6;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.landing-page .portfolio-3 {
+  letter-spacing: 0.72px;
+  line-height: 26px;
+  opacity: 0.6;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.landing-page .support {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+}
+
+.landing-page .support-1 {
+  letter-spacing: 0.88px;
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.landing-page .terms-condition {
+  letter-spacing: 0.72px;
+  line-height: 26px;
+  margin-top: -1.00px;
+  opacity: 0.6;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.landing-page .privacy-policy {
+  letter-spacing: 0.72px;
+  line-height: 26px;
+  opacity: 0.6;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.landing-page .divider-1 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 18px;
+  justify-content: center;
+  position: relative;
+}
+
+.landing-page .divider-2 {
+  background-color: var(--powder-blue);
+  height: 2.5px;
+  opacity: 0.6;
+  position: relative;
+  width: 1256px;
+}
+
+.landing-page .x2022-orion-soluti {
+  color: var(--oxford-blue);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-s);
+  font-weight: 500;
+  letter-spacing: 0.80px;
+  line-height: 20px;
+  opacity: 0.6;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.landing-page .frame-2 {
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.landing-page .label-3 {
+  letter-spacing: 0.36px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.landing-page .list-items-3 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+}
+
+.landing-page .text-9 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.landing-page .website-image-3 {
+  background-size: 100% 100%;
+  border-radius: 16px;
+  height: 380px;
+  position: relative;
+  width: 689px;
+}
