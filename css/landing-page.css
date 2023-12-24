@@ -5,7 +5,7 @@
   background-color: var(--alice-blue);
   display: flex;
   flex-direction: column;
-  height: 6043px;
+  height: auto;
   width: 1440px;
 }
 
