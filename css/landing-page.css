@@ -920,12 +920,33 @@
   display: flex;
   flex-direction: row;
   flex-shrink: 1;
-  height: 432px;
   justify-content: flex-start;
   margin-top: 88px;
   overflow: hidden;
   padding: 27.5px 73px;
   width: 1440px;
+}
+
+.landing-page .footer #contact-us-form {
+  height: 444px;
+  width: 40vw;
+}
+
+.landing-page .brand {
+  font-family: var(--font-family-inter);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  color: #655d98;
+  font-size: 42px;
+}
+
+.landing-page .brand .small {
+  font-size: 12px;
+  margin-top: 20px;
+  padding-left: 6px;
+  font-weight: 500;
 }
 
 .landing-page .content-6 {
@@ -942,7 +963,7 @@
   align-items: flex-end;
   display: inline-flex;
   flex: 0 0 auto;
-  gap: 180px;
+  gap: 80px;
   justify-content: center;
   position: relative;
 }
