@@ -2,7 +2,9 @@
 @import url("https://fonts.googleapis.com/css?family=Inter:400,600,800,500,700");
 /* The following line is used to measure usage of this code. You can remove it if you want. */
 
-
+html {
+  scroll-behavior: smooth;
+}
 
 .screen a {
   display: contents;

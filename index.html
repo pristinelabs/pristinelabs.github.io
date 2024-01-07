@@ -10,25 +10,29 @@
     <link rel="stylesheet" type="text/css" href="css/globals.css" />
   </head>
   <body style="margin: 0; background: #f5f5ff">
-    <input type="hidden" id="anPageName" name="page" value="landing-page" />
     <div class="container-center-horizontal">
       <div class="landing-page screen">
-        <header class="header">
+        <header class="header" id="home">
           <div class="content-2">
             <div id="pl-logo" class=""> &gt;_ </div>
             <div class="nav-items">
-              <div class="place inter-medium-midnight-18px">Home</div>
+              <div class="place inter-medium-midnight-18px">
+                <a href="#home">Home</a>
+              </div>
               <div class="items">
                 <div class="flex-row inter-medium-midnight-18px">
-                  <div class="about">About</div>
+                  <div class="about"><a href="#about">About</a></div>
                   <div class="sevices">
-                    <div class="services inter-medium-midnight-18px">Services</div>
-                    <img class="icon-1" src="img/icon-12.svg" alt="Icon" />
+                    <div class="services inter-medium-midnight-18px">
+                      <a href="#services">Services</a>
+                    </div>
                   </div>
-                  <div class="portfolio-1">Portfolio</div>
+                  <div class="portfolio-1"><a href="#portfolio">Portfolio</a></div>
                 </div>
               </div>
-              <div class="contact-button"><div class="label-1 label-3">Contact US</div></div>
+              <div class="contact-button"><div class="label-1 label-3">
+                <a href="#contact">Contact US</a>
+              </div></div>
             </div>
           </div>
         </header>
@@ -58,7 +62,7 @@
             <img class="hero-image" src="img/banner.svg" alt="Hero Image" />
           </div>
         </div>
-        <div class="information">
+        <div class="information" id="about">
           <div class="content-4">
             <div class="content-item">
               <img class="x-icon" src="img/award-icon-2.svg" alt="Award Icon" />
@@ -87,29 +91,10 @@
             Trusted by our clients around the world
           </p>
           <div class="logo-1">
-            <div class="frame-1 frame-2">
-              <div class="x-logo"><img class="x-logo-1" src="img/airbnb-logo-2.svg" alt="Airbnb Logo" /></div>
-              <div class="x-logo"><img class="x-logo-1" src="img/amazon-logo-2.svg" alt="Amazon Logo" /></div>
-              <div class="x-logo"><img class="google-logo" src="img/google-logo-2.svg" alt="Google Logo" /></div>
-              <div class="x-logo"><img class="fed-ex-logo" src="img/fedex-logo-2.svg" alt="FedEx Logo" /></div>
-              <div class="x-logo">
-                <img class="microsoft-logo" src="img/microsoft-logo-2.svg" alt="Microsoft Logo" />
-              </div>
-              <div class="x-logo"><img class="oyo-logo" src="img/oyo-logo-2.svg" alt="OYO Logo" /></div>
-            </div>
-            <div class="frame-1 frame-2">
-              <img class="company" src="img/company-8-2.png" alt="Company 8" />
-              <div class="book-my-show-logo">
-                <img class="book-my-show-logo-1" src="img/bookmyshow-logo-2.svg" alt="BookMyShow Logo" />
-              </div>
-              <div class="x-logo"><img class="ola-logo" src="img/ola-logo-2.svg" alt="OLA logo" /></div>
-              <div class="x-logo"><img class="walmart-logo" src="img/walmart-logo-2.svg" alt="Walmart Logo" /></div>
-              <img class="company" src="img/company-3-2.png" alt="Company 3" />
-              <img class="company" src="img/company-11-2.png" alt="Company 11" />
-            </div>
+            
           </div>
         </div>
-        <div class="our-services">
+        <div class="our-services" id="services">
           <div class="heading-text">
             <div class="frame-1-1">
               <div class="our">Our Servies</div>
@@ -179,8 +164,21 @@
               </p>
             </div>
           </div>
+          <div class="educator">
+            <div class="frame-7 frame-2">
+              <div class="frame">
+                <div class="uiux-design-1 inter-semi-bold-blueberry-22px">Coaching</div>
+                <div class="beautiful-usable-designs inter-bold-midnight-32px">Get Industry ready.</div>
+              </div>
+              <p class="web-design-services inter-medium-midnight-18px">
+                Our 10+ years experience, we guide you to be industry ready. We offer Industry standard projects. Techncial seminars. <br/><br/>
+                <b>Tech stack:</b> Angular, React, Typescript, Javascript, HTML5, CSS3, Java, Sprint Boot, Postgres, Python, Scala, Play framework, Ruby, Ruby on Rails.
+              </p>
+            </div>
+            <img class="illustration-4" src="img/educator.svg" alt="Educator" />
+          </div>
         </div>
-        <div class="our-portfolio">
+        <div class="our-portfolio" id="portfolio">
           <div class="content-5">
             <div class="heading-text-1">
               <div class="frame-8 frame-2">
@@ -250,14 +248,14 @@
                   </div>
                 </article>
               </div>
-              <div class="view-all-project-button">
+              <!-- <div class="view-all-project-button">
                 <div class="label">View all project</div>
                 <img class="right" src="img/right-4.svg" alt="Right" />
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
-        <footer class="footer">
+        <footer class="footer" id="contact">
           <div class="content-6">
             <div class="footer-items">
               <div class="information-1">

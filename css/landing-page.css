@@ -22,6 +22,10 @@
   width: auto;
 }
 
+.landing-page .header a {
+  color: inherit;
+}
+
 .landing-page .content-2 {
   align-items: center;
   display: flex;
@@ -460,7 +464,6 @@
   flex-direction: column;
   margin-right: 9.0px;
   margin-top: 64px;
-  min-height: 2306px;
   width: 1305px;
 }
 
@@ -678,7 +681,8 @@
   width: 580px;
 }
 
-.landing-page .uiux-design {
+.landing-page .uiux-design,
+.landing-page .educator {
   align-items: center;
   display: inline-flex;
   gap: 123px;
@@ -731,10 +735,9 @@
 .landing-page .our-portfolio {
   align-items: flex-end;
   display: flex;
-  height: 1824px;
-  margin-top: 16px;
   padding: 5px 10px;
   width: 1320px;
+  margin-top: 64px;
 }
 
 .landing-page .content-5 {
